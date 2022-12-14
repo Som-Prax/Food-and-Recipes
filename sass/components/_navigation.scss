@@ -1,0 +1,26 @@
+.nav {
+  @include respond(tab-land) {
+    right: 5vw;
+  }
+  position: fixed;
+  right: 10vw;
+  top: 10vh;
+  cursor: pointer;
+  transition: all 0.3s;
+  &-bar {
+    background-color: #444;
+    width: 4rem;
+    height: 0.4rem;
+  }
+
+  &-bar:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+
+  &:hover {
+    transform: translateY(1px);
+  }
+  &:active {
+    transform: scale(1.02);
+  }
+}

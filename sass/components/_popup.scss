@@ -1,0 +1,53 @@
+.pop-up {
+  top: 10rem;
+  left: 25vw;
+  position: fixed;
+  width: 50vw;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  &-content {
+    margin: 3rem;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+
+  &-box-box {
+    margin-top: 2rem;
+  }
+
+  &-box {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 45rem;
+  }
+}
+
+.close {
+  cursor: pointer;
+  &-bar {
+    background-color: #444;
+    width: 4rem;
+    height: 0.4rem;
+
+    &-1 {
+      transform: rotate(45deg) translate(3px);
+    }
+    &-2 {
+      transform: rotate(-45deg) translate(3px);
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 0;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  padding: 3rem;
+  background-color: rgb(255, 243, 226);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+.section {
+  border-radius: 10px;
+  margin: 5rem auto 0 auto;
+  width: 100rem;
+  padding: 3rem;
+  border: 3px solid rgb(197, 197, 158);
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+@media (max-width: 56.25em) {
+  .u-margin-bottom-big {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+@media (max-width: 56.25em) {
+  .u-margin-bottom-medium {
+    margin-bottom: 3rem !important;
+  }
+}
+@media (max-width: 37.5em) {
+  .u-margin-bottom-medium {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+@media (max-width: 56.25em) {
+  .u-margin-bottom-small {
+    margin-bottom: 1rem !important;
+  }
+}
+@media (max-width: 37.5em) {
+  .u-margin-bottom-small {
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+
+.u-highlight {
+  font-weight: 600;
+}
+
+.u-text {
+  width: 70rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.nav {
+  position: fixed;
+  right: 10vw;
+  top: 10vh;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+@media (max-width: 75em) {
+  .nav {
+    right: 5vw;
+  }
+}
+.nav-bar {
+  background-color: #444;
+  width: 4rem;
+  height: 0.4rem;
+}
+.nav-bar:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.nav:hover {
+  transform: translateY(1px);
+}
+.nav:active {
+  transform: scale(1.02);
+}
+
+.tags {
+  display: flex;
+}
+
+.tag {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.tag:hover {
+  transform: translateY(0.7px);
+}
+.tag:active {
+  transform: translateY(1.2px);
+}
+.tag:not(:first-child) {
+  margin-left: 3rem;
+}
+.tag-chinese {
+  background-color: rgb(226, 78, 78);
+}
+.tag-hot {
+  background-color: red;
+}
+.tag-cantonese {
+  background-color: rgb(239, 160, 63);
+}
+.tag-carbo {
+  background-color: rgb(129, 29, 29);
+}
+.tag-traditional {
+  background-color: rgb(103, 103, 223);
+}
+.tag-meatvege {
+  background-color: rgb(110, 230, 110);
+}
+.tag-french {
+  color: #333;
+  background-image: linear-gradient(to right, rgb(60, 60, 158), white, rgb(213, 42, 42));
+}
+.tag-delicate {
+  background-color: rgb(249, 249, 143);
+  color: #333;
+}
+.tag-bizarre {
+  background-color: rgb(56, 182, 56);
+  color: #333;
+}
+.tag-vege {
+  background-color: rgb(35, 137, 35);
+}
+.tag-healthy {
+  background-color: rgb(221, 98, 221);
+}
+.tag-singaporean {
+  background-image: linear-gradient(red, white);
+}
+.tag-diverse {
+  background-image: linear-gradient(to right, red, rgb(149, 149, 41), green, blue);
+}
+
+.imgs {
+  display: flex;
+}
+
+.img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 13rem;
+  border: solid black 4px;
+  border-right: none;
+}
+.img-yong:last-child {
+  border-right: solid black 4px;
+}
+.img-escargot:last-child {
+  border-right: solid black 4px;
+}
+.img-chili:last-child {
+  border-right: solid black 4px;
+}
+.img-singaporean:last-child {
+  border-right: solid black 4px;
+}
+.img-leicha:last-child {
+  border-right: solid black 4px;
+}
+
+.steps-box {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  padding: 3rem;
+  padding-left: 5rem;
+  border-radius: 10px;
+  border: solid 5px rgb(233, 200, 100);
+  width: 70rem;
+}
+
+.pop-up {
+  top: 10rem;
+  left: 25vw;
+  position: fixed;
+  width: 50vw;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pop-up-content {
+  margin: 3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+.link-box-box {
+  margin-top: 2rem;
+}
+.link-box {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 45rem;
+}
+
+.close {
+  cursor: pointer;
+}
+.close-bar {
+  background-color: #444;
+  width: 4rem;
+  height: 0.4rem;
+}
+.close-bar-1 {
+  transform: rotate(45deg) translate(3px);
+}
+.close-bar-2 {
+  transform: rotate(-45deg) translate(3px);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

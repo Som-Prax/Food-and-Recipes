@@ -1,0 +1,30 @@
+.imgs {
+  display: flex;
+}
+
+.img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 13rem;
+
+  border: solid black 4px;
+  border-right: none;
+
+  &-yong:last-child {
+    border-right: solid black 4px;
+  }
+
+  &-escargot:last-child {
+    border-right: solid black 4px;
+  }
+
+  &-chili:last-child {
+    border-right: solid black 4px;
+  }
+  &-singaporean:last-child {
+    border-right: solid black 4px;
+  }
+  &-leicha:last-child {
+    border-right: solid black 4px;
+  }
+}

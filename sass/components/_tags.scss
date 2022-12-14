@@ -1,0 +1,79 @@
+.tags {
+  display: flex;
+}
+.tag {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(0.7px);
+  }
+
+  &:active {
+    transform: translateY(1.2px);
+  }
+
+  &:not(:first-child) {
+    margin-left: 3rem;
+  }
+
+  &-chinese {
+    background-color: rgb(226, 78, 78);
+  }
+
+  &-hot {
+    background-color: red;
+  }
+
+  &-cantonese {
+    background-color: rgb(239, 160, 63);
+  }
+
+  &-carbo {
+    background-color: rgb(129, 29, 29);
+  }
+
+  &-traditional {
+    background-color: rgb(103, 103, 223);
+  }
+
+  &-meatvege {
+    background-color: rgb(110, 230, 110);
+  }
+
+  &-french {
+    color: #333;
+    background-image: linear-gradient(to right, rgb(60, 60, 158), white, rgb(213, 42, 42));
+  }
+
+  &-delicate {
+    background-color: rgb(249, 249, 143);
+    color: #333;
+  }
+
+  &-bizarre {
+    background-color: rgb(56, 182, 56);
+    color: #333;
+  }
+
+  &-vege {
+    background-color: rgb(35, 137, 35);
+  }
+
+  &-healthy {
+    background-color: rgb(221, 98, 221);
+  }
+
+  &-singaporean {
+    background-image: linear-gradient(red, white);
+  }
+
+  &-diverse {
+    background-image: linear-gradient(to right, red, rgb(149, 149, 41), green, blue);
+  }
+}
